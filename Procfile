@@ -1,0 +1,1 @@
+server: ./onStart.sh
