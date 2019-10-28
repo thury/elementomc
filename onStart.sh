@@ -5,5 +5,5 @@ export PATH=$PATH:/app/nano
 echo -e '\033[1;32mNano instalado'
 echo -e '\033[1;32mStarting Multiverse worlds importation...'
 sleep 5
-screen -S minecraft -X stuff "mv import mundo^M"
+screen -S minecraft -X stuff "mv import mundo normal^M"
 screen -S minecraft -X stuff "mv load mundo^M"
