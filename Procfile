@@ -1,1 +1,1 @@
-server: ./onStart.sh
+release: ./onStart.sh
