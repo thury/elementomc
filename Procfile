@@ -1,1 +1,1 @@
-release: chmod +x soltarxd.sh |./soltarxd.sh
+release: bash soltarxd
