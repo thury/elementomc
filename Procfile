@@ -1,1 +1,1 @@
-release: bash soltarxd
+release: bash soltarxd.sh
