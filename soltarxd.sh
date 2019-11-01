@@ -4,4 +4,4 @@ curl https://github.com/Ehryk/heroku-nano/raw/master/heroku-nano-2.5.1/nano.tar.
 export PATH=$PATH:/app/nano
 echo -e '\033[1;32mNano instalado'
 echo -e '\033[1;32mBroadcasting discord NGROK IP'
-screen -S minecraft -X stuff "discord broadcast La IP es: `./ngrokgetip`^M"
+screen -S minecraft -X stuff "discord broadcast La IP es: `~/ngrokgetip`^M"
