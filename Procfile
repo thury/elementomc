@@ -1,1 +1,1 @@
-release: chmod a+x start.sh; ./soltarxd.sh
+release: chmod a+x soltarxd.sh; ./soltarxd.sh
