@@ -1,3 +1,3 @@
 echo '<p>ElementoMC is here Bv</p>' >> index.rhtml
-echo '<img src="pic_trulli.jpg" alt="Italian Trullti" style="width:100%">' >> index.rhtml
+echo '<iframe src="https://giphy.com/embed/T0vH4C58iYBos" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/magic-moon-sun-T0vH4C58iYBos">via GIPHY</a></p>' >> index.rhtml
 exit 0
