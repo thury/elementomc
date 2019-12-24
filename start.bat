@@ -8,7 +8,6 @@ IF %ERRORLEVEL% EQU 2 (
   echo curl https://github.com/Ehryk/heroku-nano/raw/master/heroku-nano-2.5.1/nano.tar.gz --location --silent ^| tar xz -C /app/nano
   echo export PATH=$PATH:/app/nano
   heroku ps:exec -a elementocraft
-  rem queopinas.com: q5HqSwi*3RNPpXL
   cmd /k
 ) ELSE (
   echo Se cambiara a una consola de comandos normal.
