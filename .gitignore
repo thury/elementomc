@@ -1,7 +1,0 @@
-*.log
-**/*.log
-*.pid
-tmp/**/*
-
-# Dont include the executable in the repo
-bin/nginx
