@@ -112,7 +112,7 @@ html, body {
 <h1 class="maintenance">ElementoCraft</h1>
 <% open('ngrok.log') do |f| %>
   <% f.lines.select { |line| line.include?("URL:") }.each do |line| %>
-    <h2><%= line.match(/tcp:\/\/(.+:[0-9]+) /)[1] %></h2>
+    <%= line.match(/tcp:\/\/(.+:[0-9]+) /)[1] %>
   <% end %>
 <% end %>
 </div>
