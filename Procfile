@@ -1,2 +1,2 @@
 nginx: bin/start-nginx-solo
-minecraft: screen -d bin/runserver
+minecraft: screen -dmS bin/runserver
