@@ -10,7 +10,9 @@ IF %ERRORLEVEL% EQU 2 (
   echo export PATH=$PATH:/app/nano
   heroku ps:exec -a elementocraft
   CHOICE /C NS /M "     X     Conexion perdida, intentar restablecer?     X     "
-  IF %ERRORLEVEL% EQU 2 goto connect
+  IF %ERRORLEVEL% EQU 2 (
+    goto connect
+  )
   cmd /k
 ) ELSE (
   echo Se cambiara a una consola de comandos normal.
