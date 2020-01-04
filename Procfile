@@ -1,1 +1,1 @@
-web: bin/minecraft
+web: touch index.php
