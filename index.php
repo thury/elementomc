@@ -1,1 +1,1 @@
-<?php include_once("index.rhtml")  ?>
+<?php header( 'Location: index.rhtml' ) ; ?>
