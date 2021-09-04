@@ -116,7 +116,6 @@ html, body {
     <%= line.match(/tcp:\/\/(.+:[0-9]+) /)[1] %>
   <% end %>
 <% end %></h1>
-<% `sed -E s_0.tcp.ngrok.io:[0-9]+_$(./ngrokgetip)_g ~/plugins/DiscordSRV/config.yml` %>
 </div>
 </div>
 
