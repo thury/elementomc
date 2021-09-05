@@ -122,7 +122,6 @@ html, body {
 <i class="fa fa-3x fa-cog" aria-hidden="true"></i>
 </div>
 <h1 class="maintenance">Servidor de Bending</h1>
-<a href="https://discord.gg/JNMk9CY">Discord</a>
 <h1><% open('ngrok.log') do |f| %>
   <% f.lines.select { |line| line.include?("URL:") }.each do |line| %>
     <%= line.match(/tcp:\/\/(.+:[0-9]+) /)[1] %>
@@ -132,6 +131,7 @@ html, body {
 </div>
 <div class="zona-hot">
 <h1 class="container"> preparate la puta que te re pario </h1>
+<a href="https://discord.gg/JNMk9CY">Discord</a>
 </div>
 
 </body></html>
